@@ -33,6 +33,75 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "assets/fonts/Helvetica Neue Medium Extended.otf",
+            "assets/fonts/Comfortaa-VariableFont_wght.ttf"
+          ],
+          "android": {
+            "fonts": [
+              {
+                "fontFamily": "Helvetica Neue Medium Extended",
+                "fontDefinitions": [
+                  {
+                    "path": "./assets/fonts/Helvetica Neue Medium Extended.otf"
+                  }
+                ]
+              },
+              {
+                "fontFamily": "Comfortaa",
+                "fontDefinitions": [
+                  {
+                    "path": "./assets/fonts/Comfortaa-VariableFont_wght.ttf"
+                  }
+                ]
+              }
+            ]
+          },
+          "ios": {
+            "fonts": [
+              {
+                "fontFamily": "Helvetica Neue Medium Extended",
+                "fontDefinitions": [
+                  {
+                    "path": "./assets/fonts/Helvetica Neue Medium Extended.otf"
+                  }
+                ]
+              },
+              {
+                "fontFamily": "Comfortaa",
+                "fontDefinitions": [
+                  {
+                    "path": "./assets/fonts/Comfortaa-VariableFont_wght.ttf"
+                  }
+                ]
+              }
+            ]
+          },
+          "web": {
+            "fonts": [
+              {
+                "fontFamily": "Helvetica Neue Medium Extended",
+                "fontDefinitions": [
+                  {
+                    "path": "./assets/fonts/Helvetica Neue Medium Extended.otf"
+                  }
+                ]
+              },
+              {
+                "fontFamily": "Comfortaa",
+                "fontDefinitions": [
+                  {
+                    "path": "./assets/fonts/Comfortaa-VariableFont_wght.ttf"
+                  }
+                ]
+              }
+            ]
+          }
+        }
       ]
     ],
     "experiments": {
